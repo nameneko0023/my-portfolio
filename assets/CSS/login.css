@@ -1,0 +1,54 @@
+/*ログインフォーム*/
+.login-form {
+  position: fixed;         /* ブラウザに対して固定 */
+  top: 120px;               /* 上からの距離 */
+  left: 50%;               /* 左からの距離 */
+  width: 300px;          /* フォームの幅 */
+  transform: translateX(-50%); /* 左右中央揃え */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form login-label {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
+.login-form label {
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+.login-form input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #005a9e;
+}

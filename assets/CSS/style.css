@@ -4,33 +4,61 @@
 @import url(sp_style.css);
 
 /*共通スタイル*/
+
+/*ヘッダー設定*/
 .header-row1{
     display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     justify-content: space-between; /* 左右に配置 */
     align-items: center;            /* 垂直方向中央揃え */
-    padding: 10px 20px;
-    background-color: greenyellow;
+    background-color: #3186cc;
+
+    color: white;
 }
 
 .header-left,
 .header-center,
 .header-right {
-    flex: 1; /* 各要素に均等な幅を与える */
-}
-
-.header-center {
-    text-align: center;
+    flex: 1;
 }
 
 .header-left {
     text-align: left;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+
+.header-center {
+    text-align: center;
 }
 
 .header-right {
     text-align: right;
 }
 
+.menue-list{
+    text-align: center;
+}
 .menue-list li {
     display: inline;
     margin-right: 20px; /* 間隔を調整 */
+}
+
+/*フッター*/
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  background-color: #333;
+  
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: Arial, sans-serif;
 }

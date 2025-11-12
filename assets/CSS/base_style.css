@@ -2,8 +2,6 @@
 .header-row1{
     display: flex;
     bottom: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     justify-content: space-between; /* 左右に配置 */
     align-items: center;            /* 垂直方向中央揃え */
@@ -14,6 +12,9 @@
 
 .page1{
     text-align: center;
+}
+.Cution_massage{
+    font-size: 36px;
 }
 
 
